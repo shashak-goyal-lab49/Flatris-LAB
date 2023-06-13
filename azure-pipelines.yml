@@ -11,8 +11,7 @@ pool: OnPremAgentPool
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '10.x'
-    checkLatest : true
+    versionSpec: '18.x'
   displayName: 'Install Node.js'
 
 - script: |
